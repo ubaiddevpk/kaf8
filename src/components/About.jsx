@@ -1,6 +1,5 @@
 import React from 'react';
-import phoneApp from "../../public/frame66.PNG";
-import bgImage from "../../public/delever.PNG"; // Add your background image
+
 
 const About = () => {
   return (
@@ -8,7 +7,7 @@ const About = () => {
       id="apropos" 
       className="relative bg-primary py-16 px-6 lg:px-16 overflow-hidden"
       style={{
-        backgroundImage: `url(${bgImage})`, // Use your custom background image
+        backgroundImage: `url(/bg.png)`, // Use your custom background image
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundBlendMode: 'multiply',
@@ -23,7 +22,7 @@ const About = () => {
           {/* Left Side - Mobile App Images (Desktop) */}
           <div className="hidden lg:flex justify-center items-start pt-12">
             <img 
-              src={phoneApp}
+              src="/frame66.png"
               alt="Kaf8 App Interface" 
               className="w-80 xl:w-96 h-auto drop-shadow-2xl"
             />
@@ -66,7 +65,7 @@ const About = () => {
         {/* Mobile App Image - Mobile Only (Bottom) */}
         <div className="lg:hidden flex justify-center mt-12">
           <img 
-            src={phoneApp}
+            src="/frame66.png"
             alt="Kaf8 App Interface" 
             className="w-64 sm:w-80 h-auto drop-shadow-2xl"
           />
