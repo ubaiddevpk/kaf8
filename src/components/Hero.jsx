@@ -1,7 +1,6 @@
 import React from 'react';
-import phone2 from "../../public/phoneframe.PNG";
-import applestore from "../../public/Vector.PNG";
-import playstore from "../../public/GooglePlay.PNG";
+
+
 
 
 
@@ -23,7 +22,7 @@ const Hero = () => {
         <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
           <div className="relative">
             <img 
-              src={phone2}
+              src="/phoneframe.png"
               alt="Kaf8 Mobile App" 
               className="w-72 lg:w-80 h-auto drop-shadow-2xl"
             />
@@ -49,7 +48,7 @@ const Hero = () => {
             >
               <div className="flex items-center gap-3">
                
-               <img src={applestore} alt=""  className='w-8 h-8'/>
+               <img src="/Vector.PNG" alt=""  className='w-8 h-8'/>
                 <div className="text-left">
                   <div className="text-xs">Télécharger dans</div>
                   <div className="text-sm font-semibold">l'App Store</div>
@@ -62,7 +61,7 @@ const Hero = () => {
               className="inline-flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
             >
               <div className="flex items-center gap-3">
-              <img src={playstore} alt=""  className='w-8 h-8'/>
+              <img src="/GooglePlay.png" alt=""  className='w-8 h-8'/>
                 <div className="text-left">
                   <div className="text-xs">Disponible sur</div>
                   <div className="text-sm font-semibold">Google Play Store</div>
@@ -80,7 +79,7 @@ const Hero = () => {
           className="inline-flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
         >
           <div className="flex items-center gap-3">
-             <img src={applestore} alt=""  className='w-8 h-8'/>
+             <img src="/Vector.png" alt=""  className='w-8 h-8'/>
             <div className="text-left">
               <div className="text-xs">Télécharger dans</div>
               <div className="text-sm font-semibold">l'App Store</div>
@@ -93,7 +92,7 @@ const Hero = () => {
           className="inline-flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
         >
           <div className="flex items-center gap-3">
-         <img src={playstore} alt=""  className='w-8 h-8'/>
+         <img src="/GooglePlay.png" alt=""  className='w-8 h-8'/>
             <div className="text-left">
               <div className="text-xs">Disponible sur</div>
               <div className="text-sm font-semibold">Google Play Store</div>
