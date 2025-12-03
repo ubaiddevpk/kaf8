@@ -6,9 +6,9 @@ import About from './components/About';
 import Features from './components/Features';
 import ServiceProviders from './components/ServiceProviders';
 import Guarantees from './components/Guarantees';
-import DownloadApp from './components/DownloadApp';
+
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+
 
 
 function App() {
