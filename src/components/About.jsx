@@ -65,7 +65,7 @@ const About = () => {
         {/* Mobile App Image - Mobile Only (Bottom) */}
         <div className="lg:hidden flex justify-center mt-12">
           <img 
-            src="/frame66.png"
+            src="/Frame66.png"
             alt="Kaf8 App Interface" 
             className="w-64 sm:w-80 h-auto drop-shadow-2xl"
           />
