@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="order-1 lg:order-2 text-center lg:text-left">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             La meilleur solution<br />
-            de livraison en 2023
+            de livraison en 2026
           </h1>
           
           <p className="text-lg lg:text-xl text-gray-600 mb-8">

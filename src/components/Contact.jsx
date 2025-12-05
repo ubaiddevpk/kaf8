@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Phone, Mail, Facebook, Instagram } from "lucide-react";
 
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -54,7 +53,7 @@ const Contact = () => {
                 className="inline-flex items-center justify-center bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 <div className="flex items-center gap-3">
-                  <img src="/GooglePlay.png"alt="" className="w-7 h-7" />
+                  <img src="/GooglePlay.png" alt="" className="w-7 h-7" />
                   <div className="text-left">
                     <div className="text-xs">Disponible sur</div>
                     <div className="text-base font-semibold">
@@ -135,7 +134,7 @@ const Contact = () => {
                 src="/bg.png"
                 alt=""
                 className="w-full h-auto object-cover block"
-                style={{ display: 'block', maxWidth: 'none' }}
+                style={{ display: "block", maxWidth: "none" }}
               />
 
               {/* Content ON TOP OF SHAPE */}
@@ -173,7 +172,11 @@ const Contact = () => {
                     <Instagram size={20} />
                   </button>
                   <button className="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition">
-                    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                    <svg
+                      className="w-5 h-5"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
                       <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
                     </svg>
                   </button>
@@ -199,6 +202,12 @@ const Contact = () => {
           >
             Politique de confidentialité
           </button>
+        </div>
+
+        {/* Copyright Text */}
+        <div className="max-w-7xl mx-auto mt-4 text-center sm:text-left text-xs text-gray-700">
+          ©2021, kf8transconnect.com, Inc. All rights reserved. Rue Adelson
+          Castiaux 203; 7390 Quaregnon (BELGIUM)
         </div>
       </footer>
     </>
